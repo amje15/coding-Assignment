@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FCoding Assignment Automation Test Suite">
+
+    <listeners>
+        <listener class-name="ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+
+
+    <test name="Coding Assignment">
+        <classes>
+            <class name="TestCases.SignUp_TestCase"></class>
+
+
+        </classes>
+    </test>
+</suite>
